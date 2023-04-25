@@ -1,0 +1,144 @@
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+    font-size: 50px;
+    background: rgba(255, 255, 255, 0.644);
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 5vh;
+}
+
+.b1{
+    background-image: url(https://images.alphacoders.com/110/1105241.png);
+    background-repeat: no-repeat;
+    background: ;
+    
+}
+
+
+a{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(235, 222, 222, 0.836);
+    margin-left: 800px;
+    margin-right: 800px;
+    padding: 20px;
+    color: rgb(254, 251, 251);
+    font-size: 30px;
+    border-radius: 2vh;
+    animation: change-color 5s ease infinite;
+    transition: 1.5s;
+    margin-top: 5%;
+}
+@keyframes change-color{
+    0%{color: rgb(251, 254, 255);}
+    50%{color: rgb(0, 255, 128);}
+    100%{color: rgba(229, 255, 0, 0.781);}
+}
+
+a:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 3px 3px #00000037;
+    z-index: 2;
+}
+
+.subportada{
+    font-family: 'Bruno Ace SC', cursive;
+    width: 1800px;        
+    height: 900px;
+    margin-left: 50px;  
+    margin-top: 50px;         
+    background: linear-gradient(rgb(250, 0, 0), rgba(0, 0, 0, 0.952));  
+    border: 2px solid #000; 
+    box-shadow: 10px 15px 8px #000000;
+    border-radius: 2vh;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    font-size: 50px;
+    font-family: 'Bruno Ace SC', cursive;
+    box-shadow: 10px 15px 8px #000000;
+    color: white;
+}
+
+.mascotas{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.tarjeta{
+    margin-top: 6%;
+    width: 216px;
+    height: 161px;
+    color: white;
+    background: url(https://static.vecteezy.com/system/resources/thumbnails/007/926/257/small/futuristic-hud-interface-technology-background-vector.jpg);
+    padding: 15px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-right: 3%;
+    border-radius: 2vh;
+    font-size: 40px;
+    box-shadow: 10px 15px 8px #000000;
+}
+
+input{
+    display: flex;
+    box-shadow: 10px 15px 8px #000000;
+}
+
+.empezar{
+    display: flex;
+    justify-content: end;
+    margin-top: 17%;
+    margin-right: 2%;
+}
+
+button{
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 30px;
+    border-radius: 1vh;
+}
+
+
+.parrafo{
+    text-align: center;
+    font-size: 25px;
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-top: 1%;
+}
+
+p{
+    justify-content: center;
+}
+
+
+.ataques{
+    margin-top: 0%;
+    margin-left: 35%;
+    
+}
+
+.mensajes{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    background: white;
+    margin-top: 2%;
+    margin-right: 25%;
+    margin-left: 25%;
+    border-radius: 3vh;
+    box-shadow: 10px 15px 8px #000000;
+}
+
+.reiniciar{
+    
+    margin-top: 5%;
+}
